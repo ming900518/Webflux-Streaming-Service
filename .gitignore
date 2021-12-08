@@ -32,3 +32,4 @@ videos/*
 .elasticbeanstalk
 deployments
 
+.DS_Store

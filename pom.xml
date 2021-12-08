@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rexijie</groupId>
-    <artifactId>webflix-streaming-service</artifactId>
-    <version>1.2.1</version>
+    <groupId>su.mingchang</groupId>
+    <artifactId>webflux-streaming-service</artifactId>
+    <version>1.2.1-1</version>
     <packaging>jar</packaging>
 
-    <name>webflux streaming service</name>
-    <description>Video and File Streaming using Spring Webflux</description>
+    <name>Webflux Streaming Service</name>
+    <description>Video and File Streaming using Spring Webflux, edited by Ming Chang</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
