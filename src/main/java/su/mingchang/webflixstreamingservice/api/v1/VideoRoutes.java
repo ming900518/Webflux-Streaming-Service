@@ -21,8 +21,7 @@ public class VideoRoutes {
                         path("/videos"), builder -> builder
                                 .GET("", videoRouteHandler::listVideos)
                                 .nest(path("/{name}"), videoBuilder -> videoBuilder
-                                        .GET("", param("partial"), videoRouteHandler::getPartialContent)
-                                        .GET("", videoRouteHandler::getFullContent)
+                                        .GET("", videoRouteHandler::getPartialContent)
                                 )
                 ).build();
     }

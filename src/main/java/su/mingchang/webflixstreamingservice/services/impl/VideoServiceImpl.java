@@ -116,6 +116,9 @@ public class VideoServiceImpl implements VideoService {
             case 2:
                 responseSize = CHUNK_SIZE_LOW;
                 break;
+            case 3:
+                responseSize = CHUNK_SIZE_MED;
+                break;
             case 4:
                 responseSize = CHUNK_SIZE_HIGH;
                 break;
@@ -123,7 +126,7 @@ public class VideoServiceImpl implements VideoService {
                 responseSize = CHUNK_SIZE_VERY_HIGH;
                 break;
             default:
-                responseSize = CHUNK_SIZE_MED;
+                responseSize = CHUNK_SIZE_VERY_HIGH;
         }
 
         return responseSize;
